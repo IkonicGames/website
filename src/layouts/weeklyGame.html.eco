@@ -1,0 +1,22 @@
+---
+layout: "default"
+---
+
+<div class="container main-container">
+  <div class="row">
+	<div class="col-md-6 col-md-offset-3">
+	  <h2><%= @document.title %>
+	</div>
+  </div>
+  <br/>
+  <div class="row">
+	<div class="col-md-6 col-md-offset-3 text-center">
+		<object width=<%= @document.width %> height=<%= @document.height %> data=<%= @document.swf %>></object>
+	</div>
+  </div>
+  <div class="row">
+	<div class="col-md-6 col-md-offset-3">
+		<%- @content %>
+	</div>
+  </div>
+</div>
