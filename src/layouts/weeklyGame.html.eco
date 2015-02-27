@@ -11,7 +11,11 @@ layout: "default"
   <br/>
   <div class="row">
 	<div class="col-md-6 col-md-offset-3 text-center">
+		<% if @document.isSWF: %>
 		<object width=<%= @document.width %> height=<%= @document.height %> data=<%= @document.swf %>></object>
+		<% else: %>
+		<iframe width=<%= @document.width %> height=<%= @document.height %> src=<%= @document.gameURL %>></iframe>
+		<% end %>
 	</div>
   </div>
   <div class="row">

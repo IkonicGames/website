@@ -1,9 +1,12 @@
 ---
 title: "Week 6 - Cog Love"
 layout: "weeklyGame"
+order: 5
 swf: "Week06.swf"
+screenshot: "weeklys/images/ss-week06.png"
 width: "480"
 height: "320"
+isSWF: true
 ---
 
 ###Control

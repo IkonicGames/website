@@ -1,9 +1,12 @@
 ---
-title: "Week 01 - Personal Space Invaders"
+title: "Week 1 - Personal Space Invaders"
 layout: "weeklyGame"
+order: 1
 swf: "Week01.swf"
+screenshot: "weeklys/images/ss-week01.png"
 width: "480"
 height: "320"
+isSWF: true
 ---
 
 ###Controls

@@ -1,9 +1,12 @@
 ---
 title: "Week 5 - Wormageddon"
 layout: "weeklyGame"
+order: 4
 swf: "Week05.swf"
+screenshot: "weeklys/images/ss-week05.png"
 width: "480"
 height: "320"
+isSWF: true
 ---
 
 ###Controls

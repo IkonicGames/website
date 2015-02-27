@@ -1,9 +1,12 @@
 ---
 title: "Week 7 - Blocks That Match"
 layout: "weeklyGame"
+order: 6
 swf: "Week07.swf"
+screenshot: "weeklys/images/ss-week07.png"
 width: "320"
 height: "480"
+isSWF: true
 ---
 
 
