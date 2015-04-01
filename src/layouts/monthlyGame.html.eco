@@ -12,7 +12,7 @@ layout: "default"
 	<div class="row">
 		<div class="col-md-6 col-md-offset-3 text-center">
 			<% if @document.objectType is "swf": %>
-				<object type="application/x-shockwave-flash" data=<%= @document.swf %> width=<%= @document.width %> height=<%=@document.height %>></object>
+				<object type="application/x-shockwave-flash" data=<%= @document.file+ ".swf" %> width=<%= @document.width %> height=<%=@document.height %>></object>
 			<% end %>
 		</div>
 	</div>
